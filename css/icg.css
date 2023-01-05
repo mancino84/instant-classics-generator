@@ -1,0 +1,101 @@
+body { 
+	font-family: Nova Mono; 
+	background-color: #3C1B43; 
+	color: #D4E79E; 
+	overflow: hidden 
+}
+
+.input-group-text, .btn-secondary, .bnt-secondary:active, .btn-secondary:focus { 
+	background-color: #B8C480; 
+	color: #922D50; 
+	outline: none !important;
+	box-shadow: none; 
+}
+
+.btn-secondary:hover { 
+	background-color: #D4E79E; 
+	color: #501537 
+}
+
+.input-group-text { 
+	text-transform: uppercase 
+}
+
+.form-control { 
+	background-color: #D4E79E 
+}
+
+#mainView { 
+	margin: 0; 
+	max-height: 370px  
+}
+#rightView { 
+	margin: 0; 
+	max-height: 190px 
+}
+
+#mixCover { 
+	z-index: 99; 
+	width: 640px; 
+	height: 365px; 
+	position: relative 
+}
+#baseCover { 
+	z-index: 99; 
+	width: 320px; 
+	height: 185px; 
+	position: relative 
+}
+#mix1 { 
+	position: relative; 
+	top: -365px 
+}
+#mix2 { 
+	position: relative; 
+	top: -730px 
+}
+#base { 
+	position: relative; 
+	top: -185px 
+}		 
+#xFadeView, #baseView { 
+	z-index: 999 
+}
+
+header { color: #501537; background-color: #D4E79E }
+
+footer, footer a:visited, footer a, footer a:hover {
+	color: #501537; background-color: #D4E79E; text-decoration: none
+}		
+
+
+
+input[type=range][orient=vertical]
+{
+
+	transform: rotate(-90deg);
+	position: relative;
+	top: 44px;
+}
+
+.dropdown-menu {
+	background-color: #B8C480; color: #501537
+}
+
+.dropdown-menu a:hover {
+	background-color: #D4E79E; color: #3C1B43
+}
+		
+
+	.form-range::-webkit-slider-thumb {
+		-webkit-appearance: none;
+	  
+		border-radius: 10px;
+		background-color: #D4E79E;
+		overflow: visible;
+		cursor: pointer;
+	}
+	
+	.form-range::-webkit-slider-runnable-track {
+		background-color: #922D50;
+	}
